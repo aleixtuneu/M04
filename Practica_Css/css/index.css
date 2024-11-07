@@ -1,0 +1,123 @@
+* {
+    font-family: Helvetica;
+}
+
+/* HEADER */
+header {
+    /* border: solid black 1px; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    /* border: solid gray 1px; */
+    padding: 5px;
+    font-size: 50px;
+    margin: 0px;
+}
+
+nav {
+    /* border: solid gray 1px; */
+    font-size: 20px;
+}
+
+nav ul {
+    /* border: solid lightgrey 1px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MAIN */
+#especiesText {
+    /* border: solid black 1px; */
+    padding: 40px;
+    background-image: url("../img/forest.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+ol {
+    /* border: solid gray 1px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+ol li {
+    border: solid black 1px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    list-style-type: none;
+    width: 475px;
+}
+
+ol li img {
+    width: 475px;
+    height: 300px;
+}
+
+h3 {
+    font-size: 19px;
+    text-align: center;
+}
+
+.container {
+    /* border: solid black 1px; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.container p {
+    font-style: italic;
+    color: darkslategray;
+}
+
+/* Bibliografia */
+.bibliografia {
+    /* border: solid red 1px; */
+    background-color: lightgray;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* FOOTER */
+footer {
+    /* border: solid black 1px; */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer div {
+    /* border: solid gray 1px; */
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+}
